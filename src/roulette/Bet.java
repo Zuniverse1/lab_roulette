@@ -27,7 +27,12 @@ public class Bet {
     public int getOdds () {
         return myOdds;
     }
-
+    public String placeBet(){
+    	return "";
+    }
+    public boolean betIsMade(Wheel myWheel){
+    	return true;
+    }
     /**
      * @return name of this kind of bet
      */
